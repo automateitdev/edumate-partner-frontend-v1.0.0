@@ -19,7 +19,7 @@
         "primevue": "^3.49.1"
     },
     "devDependencies": {
-        "nuxt": "3.13.2",
+        "nuxt": "4.6.3",
         "nuxt-primevue": "^0.3.1",
         "sass": "^1.60.0"
     }
