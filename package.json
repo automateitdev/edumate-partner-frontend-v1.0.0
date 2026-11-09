@@ -1,0 +1,26 @@
+{
+    "name": "edumate-partner-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Partner portal: commission partners see their institutes, commission, payouts, bills and fee revenue.",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@pinia/nuxt": "^0.5.5",
+        "axios": "^1.7.7",
+        "pinia": "^2.2.4",
+        "primeflex": "^3.3.0",
+        "primeicons": "^6.0.1",
+        "primevue": "^3.49.1"
+    },
+    "devDependencies": {
+        "nuxt": "3.13.2",
+        "nuxt-primevue": "^0.3.1",
+        "sass": "^1.60.0"
+    }
+}
