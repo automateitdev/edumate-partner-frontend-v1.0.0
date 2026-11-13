@@ -29,9 +29,9 @@ export default defineNuxtConfig({
         langDir: 'locales',
         vueI18n: './i18n.config.js',
         locales: [
-            { code: 'en', language: 'en-US', name: 'English', file: 'en.json', dir: 'ltr' },
-            { code: 'bn', language: 'bn-BD', name: 'বাংলা', file: 'bn.json', dir: 'ltr' },
-            { code: 'ar', language: 'ar', name: 'العربية', file: 'ar.json', dir: 'rtl' }
+            { code: 'en', language: 'en-US', name: 'English', file: 'en.js', dir: 'ltr' },
+            { code: 'bn', language: 'bn-BD', name: 'বাংলা', file: 'bn.js', dir: 'ltr' },
+            { code: 'ar', language: 'ar', name: 'العربية', file: 'ar.js', dir: 'rtl' }
         ],
         detectBrowserLanguage: {
             useCookie: true,
