@@ -1,0 +1,11 @@
+{
+    "institutes": {
+        "empty": "No institutes are assigned to you yet.",
+        "since": "Since",
+        "how_they_pay": "How they pay",
+        "per_student": "{amount} per student",
+        "not_set_up": "Not set up yet",
+        "students": "Students",
+        "your_pct": "Your %"
+    }
+}

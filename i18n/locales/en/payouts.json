@@ -1,0 +1,13 @@
+{
+    "payouts": {
+        "empty": "No payout yet.",
+        "payout": "Payout",
+        "up_to": "commission up to {month}",
+        "commission_entries": "Commission ({count} entry) | Commission ({count} entries)",
+        "ait_pct": "AIT {pct}%",
+        "due_up_to": "Commission due up to {month}",
+        "paid_on": "Paid {date}",
+        "ref": "ref {ref}",
+        "to_account": "To {method} {account}"
+    }
+}

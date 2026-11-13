@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+        "welcome": "Welcome, {name}",
+        "suspended": "Suspended",
+        "suspended_notice": "Your partnership is suspended. Commission earned now is on hold until it is reactivated.",
+        "due_now": "Due to you now",
+        "due_now_hint": "paid out in the next payout",
+        "earned_not_due": "Earned, not due yet",
+        "on_hold": "{amount} on hold",
+        "paid_so_far": "Paid to you so far",
+        "last_payout": "last {amount} on {date}",
+        "rate": "Your commission rate",
+        "active_institutes": "{count} active institute | {count} active institutes",
+        "tiered": "tiered",
+        "dues_title": "Dues of your institutes",
+        "open_bills": "Open bills",
+        "overdue_bills": "Overdue ({count} bill) | Overdue ({count} bills)",
+        "see_bills": "See the bills",
+        "fee_collection_month": "Fee collection, {month}",
+        "see_fee_revenue": "See fee revenue"
+    }
+}

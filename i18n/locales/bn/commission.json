@@ -1,0 +1,10 @@
+{
+    "commission": {
+        "all_sources": "সব উৎস",
+        "empty": "এখনো কোনো কমিশন নেই।",
+        "taken_back": "ফেরত নেওয়া হয়েছে",
+        "pct_of": "{base}-এর {pct}",
+        "earned_due": "অর্জন / প্রাপ্য",
+        "due_on": "প্রাপ্য {date}"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "payouts": {
+        "empty": "لا توجد دفعات بعد.",
+        "payout": "الدفعة",
+        "up_to": "العمولة حتى {month}",
+        "commission_entries": "العمولة (عدد القيود: {count})",
+        "ait_pct": "الضريبة المقتطعة {pct}%",
+        "due_up_to": "العمولة المستحقة حتى {month}",
+        "paid_on": "دُفعت في {date}",
+        "ref": "المرجع {ref}",
+        "to_account": "إلى {method} {account}"
+    }
+}

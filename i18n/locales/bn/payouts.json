@@ -1,0 +1,13 @@
+{
+    "payouts": {
+        "empty": "এখনো কোনো পেআউট হয়নি।",
+        "payout": "পেআউট",
+        "up_to": "{month} পর্যন্ত কমিশন",
+        "commission_entries": "কমিশন ({count}টি এন্ট্রি)",
+        "ait_pct": "AIT {pct}%",
+        "due_up_to": "{month} পর্যন্ত প্রাপ্য কমিশন",
+        "paid_on": "পরিশোধ {date}",
+        "ref": "রেফারেন্স {ref}",
+        "to_account": "{method} {account}-এ"
+    }
+}

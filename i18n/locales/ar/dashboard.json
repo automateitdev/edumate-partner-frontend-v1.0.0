@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+        "welcome": "مرحبًا، {name}",
+        "suspended": "موقوفة",
+        "suspended_notice": "شراكتك موقوفة. تبقى العمولة المكتسبة الآن معلّقة حتى إعادة تفعيلها.",
+        "due_now": "المستحق لك الآن",
+        "due_now_hint": "تُصرف في الدفعة القادمة",
+        "earned_not_due": "مكتسبة، غير مستحقة بعد",
+        "on_hold": "{amount} معلّقة",
+        "paid_so_far": "ما دُفع لك حتى الآن",
+        "last_payout": "آخر دفعة {amount} في {date}",
+        "rate": "نسبة عمولتك",
+        "active_institutes": "المؤسسات النشطة: {count}",
+        "tiered": "متدرّجة",
+        "dues_title": "مستحقات مؤسساتك",
+        "open_bills": "الفواتير المفتوحة",
+        "overdue_bills": "المتأخرة (عدد الفواتير: {count})",
+        "see_bills": "عرض الفواتير",
+        "fee_collection_month": "تحصيل الرسوم، {month}",
+        "see_fee_revenue": "عرض إيرادات الرسوم"
+    }
+}

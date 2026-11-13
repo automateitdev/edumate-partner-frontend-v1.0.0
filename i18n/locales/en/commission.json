@@ -1,0 +1,10 @@
+{
+    "commission": {
+        "all_sources": "All sources",
+        "empty": "No commission yet.",
+        "taken_back": "taken back",
+        "pct_of": "{pct} of {base}",
+        "earned_due": "Earned / due",
+        "due_on": "due {date}"
+    }
+}
