@@ -1,0 +1,68 @@
+{
+    "app": {
+        "title": "بوابة الشركاء"
+    },
+    "common": {
+        "language": "اللغة",
+        "open_menu": "فتح القائمة",
+        "sign_out": "تسجيل الخروج",
+        "loading": "جارٍ التحميل…",
+        "all": "الكل"
+    },
+    "errors": {
+        "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+        "too_many_attempts": "محاولات كثيرة جدًا. انتظر دقيقة ثم حاول مرة أخرى."
+    },
+    "nav": {
+        "overview": "نظرة عامة",
+        "institutes": "مؤسساتي",
+        "commission": "العمولة",
+        "payouts": "المدفوعات",
+        "statement": "كشف الحساب",
+        "bills": "الفواتير والمستحقات",
+        "fee_revenue": "إيرادات الرسوم",
+        "account": "الحساب"
+    },
+    "login": {
+        "subtitle": "سجّل الدخول لعرض مؤسساتك وعمولتك",
+        "mobile": "رقم الجوال",
+        "password": "كلمة المرور",
+        "submit": "تسجيل الدخول",
+        "forgot": "نسيت كلمة المرور؟ اطلب من ممثل Edumate إعادة تعيينها."
+    },
+    "status": {
+        "ledger": {
+            "accrued": "مكتسبة، غير مستحقة بعد",
+            "payable": "مستحقة لك",
+            "paid": "مدفوعة",
+            "hold": "معلّقة",
+            "reversed": "ملغاة"
+        },
+        "bill": {
+            "issued": "صادرة",
+            "partial": "مدفوعة جزئيًا",
+            "paid": "مدفوعة",
+            "overdue": "متأخرة",
+            "cancelled": "ملغاة"
+        },
+        "payout": {
+            "verified": "قيد المعالجة",
+            "approved": "معتمدة",
+            "paid": "مدفوعة"
+        }
+    },
+    "source": {
+        "bill_payment": "دفع فاتورة مباشر",
+        "fee_revenue": "تحصيل الرسوم"
+    },
+    "mode": {
+        "direct_bill": "فاتورة مباشرة",
+        "fee_collection": "تحصيل الرسوم"
+    },
+    "cycle": {
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "half_yearly": "نصف سنوي",
+        "yearly": "سنوي"
+    }
+}

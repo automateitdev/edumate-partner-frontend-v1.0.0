@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { defineStore } from 'pinia';
+import { tg } from '~/utils/i18n';
 
 /** The signed-in partner. The session itself is in httpOnly cookies. */
 export const useAuthStore = defineStore('auth', {
@@ -62,6 +63,6 @@ export const errorMessage = (error) => {
     const errors = error?.response?.data?.errors;
     const list = errors?.validation_error ?? errors?.request_error ?? errors?.not_found ?? errors?.system_error;
     if (Array.isArray(list) && list.length) return list.map((e) => e.message).join('\n');
-    if (error?.response?.status === 429) return 'Too many attempts. Wait a minute and try again.';
-    return 'Something went wrong. Please try again.';
+    if (error?.response?.status === 429) return tg('errors.too_many_attempts');
+    return tg('errors.generic');
 };

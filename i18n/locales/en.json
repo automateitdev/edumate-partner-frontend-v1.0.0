@@ -1,0 +1,68 @@
+{
+    "app": {
+        "title": "Partner Portal"
+    },
+    "common": {
+        "language": "Language",
+        "open_menu": "Open menu",
+        "sign_out": "Sign out",
+        "loading": "Loading…",
+        "all": "All"
+    },
+    "errors": {
+        "generic": "Something went wrong. Please try again.",
+        "too_many_attempts": "Too many attempts. Wait a minute and try again."
+    },
+    "nav": {
+        "overview": "Overview",
+        "institutes": "My institutes",
+        "commission": "Commission",
+        "payouts": "Payouts",
+        "statement": "Statement",
+        "bills": "Bills and dues",
+        "fee_revenue": "Fee revenue",
+        "account": "Account"
+    },
+    "login": {
+        "subtitle": "Sign in to see your institutes and commission",
+        "mobile": "Mobile number",
+        "password": "Password",
+        "submit": "Sign in",
+        "forgot": "Forgot your password? Ask your Edumate contact to reset it."
+    },
+    "status": {
+        "ledger": {
+            "accrued": "Earned, not due yet",
+            "payable": "Due to you",
+            "paid": "Paid",
+            "hold": "On hold",
+            "reversed": "Reversed"
+        },
+        "bill": {
+            "issued": "Issued",
+            "partial": "Partly paid",
+            "paid": "Paid",
+            "overdue": "Overdue",
+            "cancelled": "Cancelled"
+        },
+        "payout": {
+            "verified": "Being processed",
+            "approved": "Approved",
+            "paid": "Paid"
+        }
+    },
+    "source": {
+        "bill_payment": "Direct bill payment",
+        "fee_revenue": "Fee collection"
+    },
+    "mode": {
+        "direct_bill": "Direct bill",
+        "fee_collection": "Fee collection"
+    },
+    "cycle": {
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "half_yearly": "Half-yearly",
+        "yearly": "Yearly"
+    }
+}
