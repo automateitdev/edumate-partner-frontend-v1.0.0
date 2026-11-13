@@ -2,21 +2,21 @@
     "dashboard": {
         "welcome": "স্বাগতম, {name}",
         "suspended": "স্থগিত",
-        "suspended_notice": "আপনার পার্টনারশিপ স্থগিত আছে। আবার চালু না হওয়া পর্যন্ত এখন অর্জিত কমিশন স্থগিত থাকবে।",
+        "suspended_notice": "আপনার পার্টনারশিপ এখন স্থগিত। আবার চালু না হওয়া পর্যন্ত নতুন কমিশন আটকে থাকবে।",
         "due_now": "এখন আপনার প্রাপ্য",
         "due_now_hint": "পরবর্তী পেআউটে পরিশোধ করা হবে",
         "earned_not_due": "অর্জিত, এখনো প্রাপ্য নয়",
         "on_hold": "{amount} স্থগিত",
-        "paid_so_far": "এ পর্যন্ত আপনাকে পরিশোধিত",
+        "paid_so_far": "এ পর্যন্ত আপনাকে দেওয়া হয়েছে",
         "last_payout": "সর্বশেষ {amount}, {date} তারিখে",
         "rate": "আপনার কমিশনের হার",
         "active_institutes": "{count}টি সক্রিয় প্রতিষ্ঠান",
         "tiered": "ধাপভিত্তিক",
         "dues_title": "আপনার প্রতিষ্ঠানগুলোর বকেয়া",
         "open_bills": "অপরিশোধিত বিল",
-        "overdue_bills": "মেয়াদোত্তীর্ণ ({count}টি বিল)",
+        "overdue_bills": "মেয়াদ পেরোনো ({count}টি বিল)",
         "see_bills": "বিলগুলো দেখুন",
-        "fee_collection_month": "ফি সংগ্রহ, {month}",
+        "fee_collection_month": "ফি আদায়, {month}",
         "see_fee_revenue": "ফি আয় দেখুন"
     }
 }
