@@ -26,7 +26,7 @@ Users must not be able to tell the text was translated. Write each language from
 - Avoid stiff, bookish or Sanskritised words nobody says, e.g. "প্রমাণীকরণ", "পরিগণনা", "অনুসন্ধান-ফলাফল-শূন্য".
 - Empty or error states read naturally: "কোনো তথ্য পাওয়া যায়নি", "কিছু একটা সমস্যা হয়েছে, আবার চেষ্টা করুন".
 - Domain words: শিক্ষার্থী, প্রতিষ্ঠান, শ্রেণি, শাখা, শিফট, শিক্ষাবর্ষ, ফি, বকেয়া, মওকুফ, পরীক্ষা, ফলাফল, হাজিরা.
-- Bangla uses "।" as the full stop.
+- Bangla uses "।" as the full stop. Digits are always Western (123), never ১২৩.
 
 **Arabic:** natural Modern Standard Arabic as in well-localised apps, not literal calques of English.
 - Buttons as verbal nouns: "حفظ", "حذف", "بحث", "تسجيل الدخول", "إلغاء".
@@ -49,6 +49,11 @@ Users must not be able to tell the text was translated. Write each language from
 3. Parameters: `"due": "Due {amount} by {date}"` → `t('fees.due', { amount, date })`. Don't build
    sentences from pieces; Bangla and Arabic word order differ.
 4. Existing hardcoded Bangla: move it to `bn`, write the English and Arabic equivalents.
+
+## Product decisions
+- Printed official documents (receipts, marksheets, admit cards, certificates, ID cards) stay as they are; translate only the controls around them.
+- Western digits everywhere; `intlLocale()`/`dateLocale()` already enforce it for formatted numbers and dates.
+- First visit follows the browser language, with English as the fallback.
 
 ## Don't translate
 API data, names, codes, IDs, route paths, CSS classes, log messages. Official printed documents (receipts,

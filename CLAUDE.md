@@ -15,7 +15,7 @@ use the `i18n` skill (`.claude/skills/i18n/SKILL.md`).
 5. Add every new key to `i18n/locales/en`, `bn` and `ar` in the same change, in the area's own JSON file
    (one top-level key per file). Reuse `common.*` for shared words.
 6. Display numbers and dates with `intlLocale()` / `dateLocale()` from `~/utils/i18n`; values sent to the API
-   keep a fixed format.
+   keep a fixed format. Digits are always Western (123), in every language.
 7. New CSS must work right-to-left: prefer `gap` and logical properties (`margin-inline-start`,
    `padding-inline-end`, `inset-inline-start`) over left/right.
 8. Never translate API data, people or institute names, codes, IDs, route paths or CSS classes.

@@ -18,12 +18,15 @@ export const tg = (key, params) => {
     return translate(key, params);
 };
 
-/** BCP 47 tag for Intl/toLocale* calls. Bangla gets Bangla digits, English keeps lakh grouping. */
-const INTL = { en: 'en-IN', bn: 'bn-BD', ar: 'ar' };
+/**
+ * BCP 47 tag for Intl/toLocale* calls. Western digits (123) in every language
+ * (product decision: safest for amounts, rolls and phone numbers); lakh grouping kept.
+ */
+const INTL = { en: 'en-IN', bn: 'bn-BD-u-nu-latn', ar: 'ar-u-nu-latn' };
 export const intlLocale = () => INTL[currentLocale.value] ?? 'en-IN';
 
 /** en-GB style dates for English (01 Jan 2026), native forms otherwise. */
-const DATE_INTL = { en: 'en-GB', bn: 'bn-BD', ar: 'ar' };
+const DATE_INTL = { en: 'en-GB', bn: 'bn-BD-u-nu-latn', ar: 'ar-u-nu-latn' };
 export const dateLocale = () => DATE_INTL[currentLocale.value] ?? 'en-GB';
 
 export const isRtl = () => currentLocale.value === 'ar';
