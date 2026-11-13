@@ -16,6 +16,26 @@ description: Use whenever adding, changing or reviewing user-visible text, label
   `intlLocale()` / `dateLocale()` give the Intl locale for display formatting.
 - `assets/rtl.scss` holds the right-to-left overrides for PrimeFlex, PrimeVue and the layout.
 
+
+## Writing like a native (most important)
+Users must not be able to tell the text was translated. Write each language from the meaning, not from the English words.
+
+**Bangla (Bangladesh):** the plain, polite wording that school and office staff in Bangladesh actually use in apps.
+- Use আপনি; buttons and actions as short imperatives: "সংরক্ষণ করুন", "মুছে ফেলুন", "খুঁজুন", "ফি পরিশোধ করুন".
+- Keep the English loanwords Bangladeshis really use: লগইন, পাসওয়ার্ড, ড্যাশবোর্ড, রিপোর্ট, মোবাইল নম্বর, ইনভয়েস, SMS, PDF, OTP.
+- Avoid stiff, bookish or Sanskritised words nobody says, e.g. "প্রমাণীকরণ", "পরিগণনা", "অনুসন্ধান-ফলাফল-শূন্য".
+- Empty or error states read naturally: "কোনো তথ্য পাওয়া যায়নি", "কিছু একটা সমস্যা হয়েছে, আবার চেষ্টা করুন".
+- Domain words: শিক্ষার্থী, প্রতিষ্ঠান, শ্রেণি, শাখা, শিফট, শিক্ষাবর্ষ, ফি, বকেয়া, মওকুফ, পরীক্ষা, ফলাফল, হাজিরা.
+- Bangla uses "।" as the full stop.
+
+**Arabic:** natural Modern Standard Arabic as in well-localised apps, not literal calques of English.
+- Buttons as verbal nouns: "حفظ", "حذف", "بحث", "تسجيل الدخول", "إلغاء".
+- Empty or error states: "لا توجد بيانات", "حدث خطأ، يرجى المحاولة مرة أخرى".
+- Domain words: الطالب، المؤسسة التعليمية، الصف، الشعبة، العام الدراسي، الرسوم، المستحقات، إعفاء، الاختبار، النتيجة، الحضور.
+- Use Arabic punctuation (، ؟ ؛), and keep word order natural rather than mirroring the English.
+
+**Check before finishing:** read each new string aloud as a native user would. If it sounds like a translation, rewrite it.
+
 ## Adding text
 1. Pick the area file (or create `<area>.json` in all three languages) and add the key:
    `en`: natural English · `bn`: polite Bangladeshi Bangla (আপনি; শিক্ষার্থী, প্রতিষ্ঠান, ফি, পরীক্ষা, ফলাফল) ·

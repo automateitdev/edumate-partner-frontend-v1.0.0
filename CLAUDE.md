@@ -20,5 +20,7 @@ use the `i18n` skill (`.claude/skills/i18n/SKILL.md`).
    `padding-inline-end`, `inset-inline-start`) over left/right.
 8. Never translate API data, people or institute names, codes, IDs, route paths or CSS classes.
 9. Run `npm run i18n:check` before finishing; it must report 0 problems.
+10. Bangla and Arabic must read as if a native speaker wrote them, not like a translation. Write for
+    meaning, not word for word; keep it short and in the words real users use. See "Writing like a native" in the i18n skill.
 
 Stack is fixed for now: Nuxt 3.13, `@nuxtjs/i18n` 9.0.0 (pinned exact), PrimeVue 3. Do not upgrade.
