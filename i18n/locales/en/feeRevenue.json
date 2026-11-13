@@ -1,0 +1,13 @@
+{
+    "feeRevenue": {
+        "payments_count": "{count} payment | {count} payments",
+        "edumate_charge": "Edumate's charge",
+        "from_month": "From month",
+        "to_month": "To month",
+        "to": "to",
+        "empty": "No online fee collection for your institutes in these months.",
+        "month": "Month",
+        "payments": "Payments",
+        "collected": "Collected"
+    }
+}

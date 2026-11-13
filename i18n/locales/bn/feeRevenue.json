@@ -1,0 +1,13 @@
+{
+    "feeRevenue": {
+        "payments_count": "{count}টি পেমেন্ট",
+        "edumate_charge": "Edumate-এর চার্জ",
+        "from_month": "শুরুর মাস",
+        "to_month": "শেষ মাস",
+        "to": "থেকে",
+        "empty": "এই মাসগুলোতে আপনার প্রতিষ্ঠানগুলোর কোনো অনলাইন ফি সংগ্রহ নেই।",
+        "month": "মাস",
+        "payments": "পেমেন্ট",
+        "collected": "সংগৃহীত"
+    }
+}

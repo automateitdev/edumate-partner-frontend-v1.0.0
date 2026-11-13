@@ -1,0 +1,23 @@
+{
+    "bills": {
+        "back": "Bills",
+        "search": "Institute ID or name",
+        "settled": "Settled",
+        "empty": "No bills here.",
+        "period": "Period",
+        "bill": "Bill",
+        "paid": "Paid",
+        "due": "Due",
+        "due_date": "Due date",
+        "cycle_bill": "{cycle} bill",
+        "due_on": "due {date}",
+        "students_rate": "{count} student × {rate} | {count} students × {rate}",
+        "discount": "Discount",
+        "tax": "Tax / VAT",
+        "credit_note": "Credit note {no}",
+        "debit_note": "Debit note {no}",
+        "paid_on": "Paid {date} ({receipt})",
+        "commission_title": "Your commission on this bill",
+        "commission_note": "{pct}, earned as the institute pays. A yearly bill pays out in two halves."
+    }
+}

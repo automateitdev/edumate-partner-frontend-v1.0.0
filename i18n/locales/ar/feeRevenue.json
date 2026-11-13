@@ -1,0 +1,13 @@
+{
+    "feeRevenue": {
+        "payments_count": "عدد المدفوعات: {count}",
+        "edumate_charge": "رسوم Edumate",
+        "from_month": "من شهر",
+        "to_month": "إلى شهر",
+        "to": "إلى",
+        "empty": "لا يوجد تحصيل رسوم عبر الإنترنت لمؤسساتك في هذه الأشهر.",
+        "month": "الشهر",
+        "payments": "المدفوعات",
+        "collected": "المحصَّل"
+    }
+}

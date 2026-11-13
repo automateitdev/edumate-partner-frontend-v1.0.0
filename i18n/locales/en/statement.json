@@ -1,0 +1,18 @@
+{
+    "statement": {
+        "period": "Statement period",
+        "print": "Print / save as PDF",
+        "title": "Commission statement",
+        "in_period": "In this period",
+        "earned": "Commission earned",
+        "reversed": "Reversed (payment taken back)",
+        "clawed_back": "Clawed back",
+        "net_earned": "Net earned",
+        "paid_in_period": "Paid in this period",
+        "ait_deducted": "AIT deducted",
+        "still_owed": "Still owed today",
+        "entries": "Entries",
+        "earned_col": "Earned",
+        "empty": "No commission in this period."
+    }
+}

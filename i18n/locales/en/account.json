@@ -1,0 +1,20 @@
+{
+    "account": {
+        "details": "Your details",
+        "code": "Partner code",
+        "name": "Name",
+        "mobile": "Mobile",
+        "email": "Email",
+        "tiered": "Tiered",
+        "fixed": "Fixed, {pct}",
+        "ait": "AIT on payouts",
+        "contact": "To change these details or your payout account, contact your Edumate representative.",
+        "change_password": "Change password",
+        "current": "Current password",
+        "new": "New password (at least 8 characters)",
+        "confirm": "New password again",
+        "mismatch": "The two passwords do not match.",
+        "changed": "Password changed",
+        "changed_detail": "Use the new password next time you sign in."
+    }
+}
