@@ -21,6 +21,9 @@ export const monthLabel = (value) => {
     return new Date(y, m - 1, 1).toLocaleDateString(dateLocale(), { month: 'short', year: 'numeric' });
 };
 
+/** A plain count in the chosen language's digits (Bangla digits for bn). */
+export const num = (value) => (value === null || value === undefined || value === '' ? '—' : Number(value).toLocaleString(intlLocale()));
+
 export const pct = (value) => (value === null || value === undefined || value === '' ? '—' : `${Number(value).toLocaleString(intlLocale())}%`);
 
 /** Y-m-d from a Date, in local time. */
