@@ -4,8 +4,8 @@
         "since": "منذ",
         "how_they_pay": "طريقة الدفع",
         "per_student": "{amount} لكل طالب",
-        "not_set_up": "لم يُضبط بعد",
+        "not_set_up": "لم يُحدَّد بعد",
         "students": "الطلاب",
-        "your_pct": "نسبتك %"
+        "your_pct": "نسبتك (%)"
     }
 }

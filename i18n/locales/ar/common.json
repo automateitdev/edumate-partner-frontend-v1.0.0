@@ -16,10 +16,10 @@
         "your_commission": "عمولتك",
         "paid_to_you": "المدفوع لك",
         "collected_online": "المحصَّل عبر الإنترنت",
-        "still_due": "المتبقي المستحق",
+        "still_due": "المتبقي",
         "show": "عرض",
         "ait": "الضريبة المقتطعة",
-        "password_prompt": "أدخل كلمة مرور",
+        "password_prompt": "أدخل كلمة المرور",
         "password_weak": "ضعيفة",
         "password_medium": "متوسطة",
         "password_strong": "قوية",
@@ -27,14 +27,14 @@
         "no_selection": "لم يتم اختيار أي عنصر"
     },
     "errors": {
-        "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
-        "too_many_attempts": "محاولات كثيرة جدًا. انتظر دقيقة ثم حاول مرة أخرى."
+        "generic": "حدث خطأ، يُرجى المحاولة مرة أخرى.",
+        "too_many_attempts": "تجاوزت عدد المحاولات المسموح به. انتظر دقيقة ثم أعد المحاولة."
     },
     "nav": {
         "overview": "نظرة عامة",
         "institutes": "مؤسساتي",
         "commission": "العمولة",
-        "payouts": "المدفوعات",
+        "payouts": "الدفعات",
         "statement": "كشف الحساب",
         "bills": "الفواتير والمستحقات",
         "fee_revenue": "إيرادات الرسوم",
@@ -69,11 +69,11 @@
         }
     },
     "source": {
-        "bill_payment": "دفع فاتورة مباشر",
+        "bill_payment": "سداد مباشر للفاتورة",
         "fee_revenue": "تحصيل الرسوم"
     },
     "mode": {
-        "direct_bill": "فاتورة مباشرة",
+        "direct_bill": "فوترة مباشرة",
         "fee_collection": "تحصيل الرسوم"
     },
     "cycle": {

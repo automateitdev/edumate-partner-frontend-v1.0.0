@@ -9,15 +9,15 @@
         "paid": "المدفوع",
         "due": "المستحق",
         "due_date": "تاريخ الاستحقاق",
-        "cycle_bill": "فاتورة بنظام {cycle}",
+        "cycle_bill": "فاتورة ({cycle})",
         "due_on": "تستحق في {date}",
-        "students_rate": "الطلاب: {count} × {rate}",
+        "students_rate": "{count} طالب × {rate}",
         "discount": "الخصم",
         "tax": "الضريبة / ضريبة القيمة المضافة",
         "credit_note": "إشعار دائن {no}",
         "debit_note": "إشعار مدين {no}",
         "paid_on": "دُفعت في {date} ({receipt})",
         "commission_title": "عمولتك على هذه الفاتورة",
-        "commission_note": "{pct}، تُكتسب كلما دفعت المؤسسة. تُصرف عمولة الفاتورة السنوية على دفعتين."
+        "commission_note": "{pct}، تُستحق كلما دفعت المؤسسة. وتُصرف عمولة الفاتورة السنوية على دفعتين."
     }
 }
